@@ -9,7 +9,7 @@ Retail businesses generate thousands of orders, but totals alone don't explain p
 What actions should the business take next?
 The data was cleaned in Excel, modelled in Power BI, and presented as an interactive dashboard with KPIs, trends, and drill-down filters. 
 
-🌍 Key Features
+<h1>🌍 Key Features</h1>
 1)KPI summary cards: Total Sales, Total Profit, Profit Margin %, Total Orders, Average Order Value, and Year-over-Year growth.
 2)Time-series analysis: Monthly sales and profit trends to spot seasonality and growth.
 3)Regional performance: Sales and profit by region and state, with loss-making areas highlighted.
@@ -18,20 +18,20 @@ The data was cleaned in Excel, modelled in Power BI, and presented as an interac
 5)Interactive slicers: Filter everything by Year, Region, and Customer Segment.
 6)Cross-filtering: Click any chart to filter the rest of the page.
 
-📂 Dataset
+<h1>📂 Dataset</h1>
 Detail	Info
 Source	Sample Superstore (https://www.kaggle.com/datasets/rohitsahoo/sales-forecasting)
 Records	100+ orders
 Period	[2014 to 2017]
 Key columns	Order Date, Ship Mode, Segment, Region, State, Category, Sub-Category, Product Name, Sales, Quantity, Discount, Profit
 
-🛠️ Tools & Skills Used
+<h1>🛠️ Tools & Skills Used</h1>
 Microsoft Excel: data cleaning, pivot tables, exploratory analysis
 Power BI Desktop: data modelling, Power Query, dashboard design
 DAX: calculated measures and time intelligence
 GitHub: version control and project documentation
 
-🗂️ Repository Structure
+<h1>🗂️ Repository Structure</h1>
 Retail-Sales-Dashboard/
 ├── data/
 │   ├── raw/          # Original dataset (unchanged)
@@ -40,7 +40,7 @@ Retail-Sales-Dashboard/
 ├── screenshots/      # Dashboard images and PDF export
 └── README.md
 
-🔄 Methodology
+<h1>🔄 Methodology</h1>
 
 1. Define business questions. Wrote the questions first so every chart has a purpose.
 2. Clean the data (Excel). Removed duplicates, fixed data types, handled blanks, and created helper columns (Year, Month, Profit Margin %). Original data was kept untouched in data/raw/.
@@ -61,7 +61,7 @@ YoY Growth % = DIVIDE([Total Sales] - [Sales LY], [Sales LY])
 7. Interpret. Turned findings into recommendations using an Insight → Evidence → Action format.
 
 
-💡 Key Insights
+<h1> Key Insights </h1>
 
 Fill in with your actual findings.
 
@@ -71,26 +71,26 @@ Regions: [Region] led in sales; [Region] had the weakest margin at [X%].
 Products: [Sub-category] was the most profitable; [Sub-category] lost [$X] overall.
 Discounts: Orders with discounts above [X%] averaged a margin of [-X%].
 
-▶️ How to Use
+<h1>How to Use</h1>
 Clone or download this repository.
 Open dashboard/Retail_Sales_Dashboard.pbix in Power BI Desktop (Windows).
 If prompted, point the data source to data/cleaned/[your-file-name].xlsx on your machine.
 Use the slicers (Year, Region, Segment) and click on charts to explore.
 
-⚠️ Limitations
+<h1>⚠️ Limitations</h1>
 The dataset is a sample dataset, so results illustrate the method rather than a real company.
 The analysis is historical; it does not include forecasting.
 Profit figures depend on the cost data included in the source file.
 
-🚧 Future Improvements
+<h1>🚧 Future Improvements</h1>
 Add a sales forecast using Power BI's built-in forecasting
 Add customer segmentation (RFM analysis)
 Publish to Power BI Service with a scheduled refresh
 Add a SQL layer for data preparation
 
-📜 License
+<h1>📜 License</h1>
 The Superstore dataset is a publicly available sample dataset used here for educational purposes.
 
-👤 Author
+<h1>Author</h1>
 
 Sharon Elizabeth Rinu MCA Student | Aspiring Data Analyst / Business Analyst 📧 sharoneliz204@gmail.com | 💼  
