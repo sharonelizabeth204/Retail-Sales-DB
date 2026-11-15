@@ -1,6 +1,6 @@
 # Retail-Sales-DB
-#heading1
-Retail Sales Performance Dashboard
+
+<h1>Retail Sales Performance Dashboard</h1>
 An interactive Power BI dashboard that turns raw retail order data into clear answers: where the business makes money, where it loses it, and what to do about it. Program built with Excel, Power BI, and DAX. Dataset: Sample Superstore
 
 
