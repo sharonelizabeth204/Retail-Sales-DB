@@ -1,10 +1,10 @@
-# Retail-Sales-DB
+
 
 <h1>Retail Sales Performance Dashboard</h1>
 An interactive Power BI dashboard that turns raw retail order data into clear answers: where the business makes money, where it loses it, and what to do about it. Program built with Excel, Power BI, and DAX. Dataset: Sample Superstore
 
 
-🧭 Overview
+<h1>🧭 Overview</h1>
 Retail businesses generate thousands of orders, but totals alone don't explain performance. This project analyses 100+ orders across 4 years to answer the questions a sales or business manager would actually ask: How are sales and profit trending over time?, Which regions, states, and customer segments perform best and worst?, Which products and sub-categories drive profit, and which lose money?, How much does discounting hurt margins?
 What actions should the business take next?
 The data was cleaned in Excel, modelled in Power BI, and presented as an interactive dashboard with KPIs, trends, and drill-down filters. 
