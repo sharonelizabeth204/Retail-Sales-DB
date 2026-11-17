@@ -11,12 +11,18 @@ The data was cleaned in Excel, modelled in Power BI, and presented as an interac
 
 <h1>🌍 Key Features</h1>
 1)KPI summary cards: Total Sales, Total Profit, Profit Margin %, Total Orders, Average Order Value, and Year-over-Year growth.
+
 2)Time-series analysis: Monthly sales and profit trends to spot seasonality and growth.
+
 3)Regional performance: Sales and profit by region and state, with loss-making areas highlighted.
-3)Product analysis: Top 10 and bottom 10 products by profit, plus category and sub-category breakdowns.
-4)Discount impact: Scatter plot showing how discount levels relate to profit.
-5)Interactive slicers: Filter everything by Year, Region, and Customer Segment.
-6)Cross-filtering: Click any chart to filter the rest of the page.
+
+4)Product analysis: Top 10 and bottom 10 products by profit, plus category and sub-category breakdowns.
+
+5)Discount impact: Scatter plot showing how discount levels relate to profit.
+
+6)Interactive slicers: Filter everything by Year, Region, and Customer Segment.
+
+7)Cross-filtering: Click any chart to filter the rest of the page.
 
 <h1>📂 Dataset</h1>
 Detail	Info
@@ -42,9 +48,13 @@ Retail-Sales-Dashboard/
 
 <h1>🛠️ Tools & Skills Used</h1>
 Power BI Desktop: data modelling, dashboard design, interactive visuals
+
 Power Query: data type setup and loading
+
 DAX: calculated measures
+
 GitHub: version control and documentation
+
 Excel: pivot tables for exploration. 
 
 
