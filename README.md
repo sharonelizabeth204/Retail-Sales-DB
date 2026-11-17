@@ -40,8 +40,15 @@ Retail-Sales-Dashboard/
 ├── screenshots/      # Dashboard images and PDF export
 └── README.md
 
-<h1>🔄 Methodology</h1>
+<h1>🛠️ Tools & Skills Used</h1>
+Power BI Desktop: data modelling, dashboard design, interactive visuals
+Power Query: data type setup and loading
+DAX: calculated measures
+GitHub: version control and documentation
+Excel: pivot tables for exploration. 
 
+
+<h1>🔄 Methodology</h1>
 1. Define business questions. Wrote the questions first so every chart has a purpose.
 2. Clean the data (Excel). Removed duplicates, fixed data types, handled blanks, and created helper columns (Year, Month, Profit Margin %). Original data was kept untouched in data/raw/.
 3. Explore (Excel pivot tables). Ran quick pivots to find trends, outliers, and loss-making items before designing visuals.
@@ -61,15 +68,50 @@ YoY Growth % = DIVIDE([Total Sales] - [Sales LY], [Sales LY])
 7. Interpret. Turned findings into recommendations using an Insight → Evidence → Action format.
 
 
-<h1> Key Insights </h1>
+<h1>💡 Key Insights</h1>
+1)Overall: Total sales of $2.26M from 4,922 orders and 793 customers, with an average order value of $459.
 
-Fill in with your actual findings.
+2)Growth: Sales rose 30.6% in 2017 and 20.3% in 2018 after a 4.2% dip in 2016. Growth came from more orders (947 in 2015 to 1,661 in 2018), while average order value fell from $506 to $435.
 
-Overall: Total sales of [$X] and profit of [$X], with a profit margin of [X%].
-Growth: Sales grew [X%] year over year, peaking in [months].
-Regions: [Region] led in sales; [Region] had the weakest margin at [X%].
-Products: [Sub-category] was the most profitable; [Sub-category] lost [$X] overall.
-Discounts: Orders with discounts above [X%] averaged a margin of [-X%].
+3)Seasonality: September, November, and December generate 43% of sales. November is the biggest month and February the weakest.
+
+3)Regions: West leads with 31.4% of sales, then East (29.6%), Central (21.8%), and South (17.2%). Since 2015, West grew 70% and East 65%, while South grew only 18%.
+
+4)States: California (19.7%) and New York (13.5%) together bring in about a third of all sales.
+
+5)Categories: Technology leads with 36.6%, then Furniture (32.2%) and Office Supplies (31.2%). Phones and Chairs are the top sub-categories at about 14% each.
+
+6)Segments: Consumer accounts for 50.8% of sales, Corporate 30.4%, and Home Office 18.8%.
+
+7)Customers: The top 20% of customers account for 48% of sales.
+
+<h1>✅ Business Recommendations</h1>
+
+1. Plan around the peak season
+
+Insight: September, November, and December produce 43% of annual sales, while January and February are the weakest months.
+Recommendation: Build stock, staffing, and marketing plans ahead of the peak, and run promotions to lift the slow early-year months.
+
+2. Grow the South
+
+Insight: South is the smallest region (17.2% of sales) and the slowest-growing (+18% since 2015, compared with +70% for West).
+Recommendation: Investigate local demand and test targeted campaigns or promotions in the South.
+
+3. Reduce reliance on a few states
+
+Insight: California and New York account for about 33% of sales, and the top five states for 52%.
+Recommendation: Protect these markets while building up mid-sized states such as Washington, Pennsylvania, and Florida.
+
+4. Retain the best customers
+
+Insight: The top 20% of customers generate 48% of sales.
+Recommendation: Introduce a loyalty or repeat-purchase programme aimed at high-value customers.
+
+5. Increase order size
+
+Insight: Average order value fell from $506 in 2015 to $435 in 2018 while the number of orders grew.
+Recommendation: Bundle related products, such as Technology accessories with Phones and Machines, and promote add-ons at checkout.
+
 
 <h1>How to Use</h1>
 Clone or download this repository.
@@ -78,9 +120,8 @@ If prompted, point the data source to data/cleaned/[your-file-name].xlsx on your
 Use the slicers (Year, Region, Segment) and click on charts to explore.
 
 <h1>⚠️ Limitations</h1>
-The dataset is a sample dataset, so results illustrate the method rather than a real company.
-The analysis is historical; it does not include forecasting.
-Profit figures depend on the cost data included in the source file.
+The dataset has no profit, discount, or quantity data, so this analysis covers revenue only. It cannot show which products or regions are the most profitable. It is a sample (educational) dataset, so the findings illustrate the method rather than a real company.
+The analysis is historical and does not include forecasting.
 
 <h1>🚧 Future Improvements</h1>
 Add a sales forecast using Power BI's built-in forecasting
@@ -93,4 +134,4 @@ The Superstore dataset is a publicly available sample dataset used here for educ
 
 <h1>Author</h1>
 
-Sharon Elizabeth Rinu MCA Student | Aspiring Data Analyst / Business Analyst 📧 sharoneliz204@gmail.com | 💼  
+Sharon Elizabeth Rinu MCA Student | Aspiring Data Analyst / Business Analyst 📧 sharoneliz204@gmail.com | 💼  https://www.linkedin.com/in/sharon-elizabeth-rinu-79063b312?utm_source=share_via&utm_content=profile&utm_medium=member_ios
