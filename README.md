@@ -20,7 +20,7 @@ The data was audited and cleaned, modelled in Power BI, and presented as an inte
 
 ## 📊 Dashboard Preview
 
-![Dashboard Overview](screenshots/overview.png)
+![Dashboard Overview](overview.png)
 
 ## 🌍 Key Features
 
